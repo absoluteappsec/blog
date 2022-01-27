@@ -1,0 +1,354 @@
+/*General*/
+
+body {
+    font-family: Quicksand;
+}
+
+.button.hollow.secondary:hover, .button.hollow.secondary:focus {
+    border-color: #8CC53F;
+    color: #fff;
+}
+
+
+.button:hover, .button:focus {
+   border-color: #E67526;
+    color: #fff;
+    background-color:#E67526;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Quicksand;
+}
+
+
+.display-table {
+    display: table;
+}
+
+.va-align {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+/*General*/
+
+.intro {
+    background: url(../img/berlin_hbf.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 200px;
+    max-height: 350px;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    background-position: center;
+}
+
+/* About */
+.about {
+    background-color: #fff;
+    text-align: center;
+    margin: 40px;
+}
+
+
+/* About */
+
+.cons {
+    background-color: #eee;
+    text-align: center;
+    margin: 40px;
+}
+
+
+
+/* Colors */
+
+.orange {
+    color: #F78536;
+}
+
+.green {
+    color: #8CC53F;
+}
+
+.grey {
+    color: #3A3A3C;
+}
+
+.light-grey {
+    color: #58585A;
+}
+
+.light-blue-grey {
+    color: #DFEBED;
+}
+
+.blue {
+    color: #497285;
+}
+
+.dark-blue {
+    color: #2B4450;
+}
+
+.orange-bg {
+    background-color: #F78536;
+}
+
+.light-blue-grey-bg {
+    background-color: #DFEBED;
+}
+
+.blue-bg {
+    background-color: #497285;
+}
+
+.dark-blue-bg {
+    background-color: #2B4450;
+}
+
+
+/*Colors*/
+
+
+/*Team*/
+
+.team {
+    background-color: #fff;
+    margin: 40px;
+}
+
+.team-member {
+    text-align: center;
+    margin-bottom :16px;
+}
+
+    .team-member img {
+        margin-bottom: 30px;
+    }
+
+    .team-member h5 {
+        color: #F78536;
+    }
+
+    .team-member p {
+        font-weight: 300;
+    }
+/*Team*/
+
+/* Info Section */
+
+.info {
+    background-color: #3A3A3C;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Info Section */
+
+
+/*Blog */
+
+.blog {
+    background-color: #fff;
+    margin: 30px;
+    padding: 10px
+}
+
+    .blog .label {
+        margin-bottom: 5px;
+    }
+
+.blog-item {
+    margin-bottom: 10px;
+}
+
+    .blog-item img {
+        margin-bottom: 10px;
+    }
+
+    .blog-item h5 {
+        color: #497285;
+    }
+
+
+/*Video */
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+  }
+  .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  main {
+    background: white;
+    height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  
+  body {
+    margin: 0;
+    background-color: rgb(226, 243, 247);
+  }
+
+/* Cards */
+
+
+.card-grid-3 .card-article-hover{
+    width: 95%
+}
+.container .card-grid-3 .card-article-hover{
+    width: 95%;
+    background: #fff;
+    margin: 0 auto;
+    padding-top: 25px;
+    margin-top: -3rem;
+    z-index: 2;
+    columns: 3 auto;
+}
+
+.card-article-hover {
+  box-shadow: 0px 0px 7px #888888;
+}
+
+.card-article-hover .card-section {
+  width: 33.333%;
+  background: #fff;
+  margin: 0 auto;
+  padding-top: 25px;
+  margin-top: -3rem;
+  z-index: 2;
+}
+
+.card-article-hover .card-section .article-subtext {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.85rem;
+}
+
+.card-article-hover .card-section .article-title {
+  font-weight: bold;
+  font-family: ‘Georgia’, serif;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.card-article-hover .card-section .article-desc {
+  font-family: ‘Georgia, serif;
+  font-size: 1rem;
+}
+
+.card-article-hover .card-divider {
+  background: #fff;
+}
+
+.card-article-hover .card-divider .author {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #8CC53F
+}
+
+.card-article-hover .hover-border {
+  height: 10px;
+  width: 450px;
+  background: #8CC53F;
+  width: 0;
+  transition: width 1s ease;
+}
+
+.card-article-hover:hover .hover-border {
+  height: 10px;
+  width: 450px;
+  transition: width 1s ease;
+}
+
+.card-article-hover .author {
+  color: #8CC53F;
+}
+
+.card-article-hover .avatar {
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.card-article-hover .meta-data {
+  text-transform: uppercase;
+  color: white;
+}
+
+
+/* Subscribe */
+
+.subscribe {
+    background-color: #497285;
+    color: #fff;
+    min-height: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+/* Subscribe */
+
+
+/*Map*/
+
+.map {
+    background-color: #F78536;
+    color: #fff;
+    min-height: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Map */
+
+
+/* Contact */
+
+.contact {
+    background-image: url('../img/berlin_hbf.jpg');
+    background-position: center center;
+    min-height: 200px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    background-position: bottom center;
+}
+
+/* Contact */
+
+/*Footer */
+
+.footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer-social i {
+    color: #497285;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+    .footer-social i:hover {
+        color: #F78536;
+    }
+
+
+/*Footer */
