@@ -177,6 +177,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 
+
 /*Video */
 .videoWrapper {
     position: relative;
@@ -271,7 +272,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .card-article-hover:hover .hover-border {
   height: 10px;
-  width: 450px;
+  width: 100%;
   transition: width 1s ease;
 }
 
@@ -289,6 +290,11 @@ h1, h2, h3, h4, h5, h6 {
   color: white;
 }
 
+/* Pseudo-Element */
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 /* Subscribe */
 
@@ -321,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Contact */
 
 .contact {
-    background-image: url('../img/berlin_hbf.jpg');
+    background-image: url('berlin_hbf.jpg');
     background-position: center center;
     min-height: 200px;
     padding: 20px;
