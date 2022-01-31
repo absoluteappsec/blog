@@ -176,7 +176,23 @@ h1, h2, h3, h4, h5, h6 {
         color: #497285;
     }
 
+.row {
+    padding-top: .75rem;
+    padding-bottom: .9375rem;
+    max-width: 75rem;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.columns {
+    align: left;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
+.container {
+    padding-bottom: 1rem;
+}
 
 /*Video */
 .videoWrapper {
