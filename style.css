@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 /*General*/
 
 .intro {
-    background: url(../img/berlin_hbf.jpg) no-repeat center center;
+    background: url(assets/images/berlin_hbf.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -185,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .columns {
-    align: left;
+    box-align: left;
     padding-left: .9375rem;
     padding-right: .9375rem;
 }
