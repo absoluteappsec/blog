@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-02-09T11:05:31-07:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Absolute AppSec - The Blog</title><subtitle>A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO</subtitle><entry><title type="html">AppSec For New Professionals</title><link href="http://localhost:4000/blog/new/" rel="alternate" type="text/html" title="AppSec For New Professionals" /><published>2022-02-09T00:00:00-07:00</published><updated>2022-02-09T00:00:00-07:00</updated><id>http://localhost:4000/blog/appsec-for-new</id><content type="html" xml:base="http://localhost:4000/blog/new/">&lt;h3 id=&quot;getting-into-application-security-can-be-daunting-but-there-is-a-way&quot;&gt;Getting into Application Security can be daunting, but there is a way&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-02-09T11:30:20-07:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Absolute AppSec - The Blog</title><subtitle>A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO</subtitle><entry><title type="html">AppSec For New Professionals</title><link href="http://localhost:4000/blog/new/" rel="alternate" type="text/html" title="AppSec For New Professionals" /><published>2022-02-09T00:00:00-07:00</published><updated>2022-02-09T00:00:00-07:00</updated><id>http://localhost:4000/blog/appsec-for-new</id><content type="html" xml:base="http://localhost:4000/blog/new/">&lt;h3 id=&quot;getting-into-application-security-can-be-daunting-but-there-is-a-way&quot;&gt;Getting into Application Security can be daunting, but there is a way&lt;/h3&gt;
 
 &lt;p&gt;As podcasters, we are often asked what it takes to get into Application Security. While there is no “one true way” to get into Application Security, we have talked with individuals on the podcast with a range of backgrounds, from coding or engineering to circus performers (seriously). All it takes is a desire to learn, time to explore different application security topics, and to get involved.&lt;/p&gt;
 
@@ -27,14 +27,14 @@
 &lt;h3 id=&quot;newsletters&quot;&gt;Newsletters&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;tl;dr sec - Clint Gibler’s (https://twitter.com/clintgibler) weekly newsletter covering a range of topics, from application security to red team, cloud security, upcoming conferences, and miscellaneous topics that are security related. https://tldrsec.com&lt;/li&gt;
-  &lt;li&gt;Unsupervised Learning - Daniel Miesser spends 20+ hours each week consuming content and summarizes articles on security, technology, and other topics. https://danielmiessler.com/newsletter/&lt;/li&gt;
+  &lt;li&gt;tl;dr sec - &lt;a href=&quot;https://twitter.com/clintgibler&quot;&gt;Clint Gibler’s&lt;/a&gt; weekly newsletter covering a range of topics, from application security to red team, cloud security, upcoming conferences, and miscellaneous topics that are security related. &lt;a href=&quot;https://tldrsec.com&quot;&gt;tl;dr sec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Unsupervised Learning - Daniel Miesser spends 20+ hours each week consuming content and summarizes articles on security, technology, and other topics. &lt;a href=&quot;https://danielmiessler.com/newsletter/&quot;&gt;Signup Link&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;threat-modeling&quot;&gt;Threat Modeling&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;https://segment.com/blog/redefining-threat-modeling/ - Jeevan Singh from Segment blogs his experience of building a self-serve Threat Modeling program for software engineers.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://segment.com/blog/redefining-threat-modeling/&quot;&gt;Redefining Threat Modeling&lt;/a&gt; - Jeevan Singh from Segment blogs his experience of building a self-serve Threat Modeling program for software engineers.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;training&quot;&gt;Training&lt;/h3&gt;
@@ -42,49 +42,40 @@
 &lt;ul&gt;
   &lt;li&gt;Portswigger’s offerings
     &lt;ul&gt;
-      &lt;li&gt;Web Academy + Learning Path + Burpsuite https://portswigger.net/web-security&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://portswigger.net/web-security&quot;&gt;Web Academy + Learning Path + Burp Suite&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;
-    &lt;table&gt;
-      &lt;tbody&gt;
-        &lt;tr&gt;
-          &lt;td&gt;TryHackMe – TryHackMe&lt;/td&gt;
-          &lt;td&gt;Cyber Security Training https://tryhackme.com&lt;/td&gt;
-        &lt;/tr&gt;
-      &lt;/tbody&gt;
-    &lt;/table&gt;
+  &lt;li&gt;TryHackMe
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://tryhackme.com&quot;&gt;TryHackMe - Cyber Security Training&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;bug-bounties&quot;&gt;Bug Bounties&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;JHaddix’s Bug Hunter’s Methodology v4.01
-    &lt;ul&gt;
-      &lt;li&gt;https://docs.google.com/presentation/d/1MWWXXRvvesWL8V-GiwGssvg4iDM58_RMeI_SZ65VXwQ/edit#slide=id.p&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://docs.google.com/presentation/d/1MWWXXRvvesWL8V-GiwGssvg4iDM58_RMeI_SZ65VXwQ/edit#slide=id.p&quot;&gt;JHaddix’s Bug Hunter’s Methodology v4.01&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
 
-&lt;p&gt;Familiarize yourself with tools like project discovery’s nuclei vulnerability scanner: https://github.com/projectdiscovery/nuclei&lt;/p&gt;
+&lt;p&gt;Familiarize yourself with tools like &lt;a href=&quot;https://github.com/projectdiscovery/nuclei&quot;&gt;project discovery’s nuclei vulnerability scanner&lt;/a&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;OWASP’s Amass tool: https://github.com/OWASP/Amass
+  &lt;li&gt;OWASP’s Amass tool: &lt;a href=&quot;https://github.com/OWASP/Amass&quot;&gt;Amass Github Link&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;Ken’s demo is here: https://youtu.be/dnqCt4uUdzc&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/dnqCt4uUdzc&quot;&gt;Absolute AppSec Amass Demo&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Portswigger Burp Suite: https://portswigger.net/burp
+  &lt;li&gt;Portswigger Burp Suite: &lt;a href=&quot;https://portswigger.net/burp&quot;&gt;Burp Suite Portswigger Link&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;Burp Suite demo: https://youtu.be/ZnaRT3HoMn4&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/ZnaRT3HoMn4&quot;&gt;Absolute AppSec Burp Suite Demo&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Radamsa: https://gitlab.com/akihe/radamsa
+  &lt;li&gt;Radamsa: &lt;a href=&quot;https://gitlab.com/akihe/radamsa&quot;&gt;radamsa&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;Absolute AppSec Demo: https://youtu.be/oV0NoYLY0CY&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://youtu.be/oV0NoYLY0CY&quot;&gt;Absolute AppSec Demo&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
@@ -92,22 +83,22 @@
 &lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;https://lobste.rs/t/security&lt;/li&gt;
-  &lt;li&gt;https://www.reddit.com/r/netsec&lt;/li&gt;
-  &lt;li&gt;Git-N-formed discord https://discord.gg/c7HyYGHrkC&lt;/li&gt;
-  &lt;li&gt;https://portswigger.net/daily-swig&lt;/li&gt;
-  &lt;li&gt;https://www.darkreading.com&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://lobste.rs/t/security&quot;&gt;Lobst.rs Security&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.reddit.com/r/netsec&quot;&gt;Reddit Netsec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://discord.gg/c7HyYGHrkC&quot;&gt;Git-N-formed discord&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://portswigger.net/daily-swig&quot;&gt;Portswigger Daily Swig&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.darkreading.com&quot;&gt;Dark Reading&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;conferences-and-irl&quot;&gt;Conferences and IRL&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Security BSides - http://www.securitybsides.com/w/page/12194138/BSides
+  &lt;li&gt;&lt;a href=&quot;http://www.securitybsides.com/w/page/12194138/BSides&quot;&gt;Security BSides&lt;/a&gt;
     &lt;ul&gt;
-      &lt;li&gt;Low or no cost conferences offered at regional bsides are a good way to meet infosec people, practice skills in CTF events&lt;/li&gt;
+      &lt;li&gt;Low or no cost conferences offered at regional BSides events are a good way to meet infosec people, practice skills in CTF events&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;OWASP - Look for your local OWASP group here: https://owasp.org/chapters/&lt;/li&gt;
+  &lt;li&gt;OWASP - Look for your local OWASP group here: &lt;a href=&quot;https://owasp.org/chapters/&quot;&gt;OWASP Chapters&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content><author><name>@absoluteappsec</name></author><category term="appsec" /><category term="tools" /><category term="resources" /><category term="news" /><category term="appsec" /><category term="tools" /><category term="resources" /><category term="news" /><summary type="html">Resources that we have found useful during our Application Security Careers</summary></entry><entry><title type="html">Three takeaways from an episode with James Kettle</title><link href="http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html" rel="alternate" type="text/html" title="Three takeaways from an episode with James Kettle" /><published>2021-09-21T15:46:49-06:00</published><updated>2021-09-21T15:46:49-06:00</updated><id>http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle</id><content type="html" xml:base="http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html">&lt;h2 id=&quot;how-portswigger-researchs-james-kettle-approaches-application-security-research&quot;&gt;How Portswigger Research’s James Kettle approaches Application Security Research&lt;/h2&gt;
 
 &lt;video width=&quot;80%&quot; preload=&quot;auto&quot; muted=&quot;&quot; controls=&quot;&quot;&gt;
