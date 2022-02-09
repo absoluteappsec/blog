@@ -113,4 +113,4 @@ header h1 { color: #8CC53F; font-family: Quicksand; }
 
 h2, h3, h4, h5, h6 { font-family: Quicksand; text-shadow: none; }
 
-header { border-bottom: 1px dashed #8CC53F; background-color: #fff; background-image: url("/assets/images/berlin_hbf_header.png"); background-size: cover; }
+header { border-bottom: 1px dashed #8CC53F; background-color: #fff; background-image: url("/blog/assets/images/berlin_hbf_header.png"); background-size: cover; }

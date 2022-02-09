@@ -9,7 +9,7 @@ tags: appsec research http desync portswigger
 ## How Portswigger Research's James Kettle approaches Application Security Research
 
 <video width="80%" preload="auto" muted controls>
-    <source src="{{ '/assets/videos/Kettle-promo2.mp4' }}" type="video/mp4"/>
+    <source src="{{ site.baseurl }}{{ '/assets/videos/Kettle-promo2.mp4' }}" type="video/mp4"/>
 </video>
 
 Absolute AppSec's [147th episode](https://www.youtube.com/watch?v=b5IVhnboDIY) featured a can't-miss discussion with James Kettle ([@albinowax](https://twitter.com/albinowax) on Twitter), a world-class exploit researcher from [Portswigger](https://portswigger.com). As the episodes overly dramatic promo highlights, Ken and Seth discovered some interesting details regarding Kettle's path into security research. But the fun didn't end there – Kettle provided some valuable insights that could help appsec professionals and bug bounty researchers in furthering their own goals going forward.

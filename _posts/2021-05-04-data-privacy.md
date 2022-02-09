@@ -8,7 +8,7 @@ tags: data privacy appsec consumer
 ---
 ### Discussing data and privacy with Abine.com cofounder Rob Shavell
 
-![Protecting Data and Privacy]({{ '/assets/images/data-privacy.png' }})
+![Protecting Data and Privacy]({{ site.baseurl }}{{ '/assets/images/data-privacy.png' }})
 
 In an interesting episode of Absolute Appsec [133](https://www.youtube.com/watch?v=PgyyCDiIzY4), Seth and Ken interviewed Abine.com cofounder Rob Shavell in a wide-ranging discussion concerning data and privacy.
 

@@ -16,7 +16,7 @@ In April 2021, Google and Firefox both announced that a [sanitization API](https
 
 According to the two hosts, the browser update could go along way toward addressing client-side vulnerabilities, especially certain cross-site scripting weaknesses. Sanitized languages can drastically reduce attack surfaces, helping prevent potential attacks. And Mozilla and Google’s partnership with Cure53 represents a natural alliance in developing a browser-side response to many Cross-Site Scripting attacks. Developers have already used Cure53’s [DOMPurify](https://github.com/cure53/DOMPurify) libraries to positive affect in reducing attack surfaces.
 
-![XSS]({{ '/assets/images/xss.svg' }})
+![XSS]({{ site.baseurl }}{{ '/assets/images/xss.svg' }})
 
 In Seth Law’s view, the sanitization API is analogous to earlier library-adoption methods to reduce the threat of SQL Injection attacks.
 
