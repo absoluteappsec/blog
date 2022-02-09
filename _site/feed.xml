@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-02-08T17:30:27-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Absolute AppSec - The Blog</title><subtitle>A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO</subtitle><entry><title type="html">A Client-Side Solve: Browser Sanitization APIs</title><link href="http://localhost:4000/client/appsec/apis/2021/04/21/browser-sanitization-apis.html" rel="alternate" type="text/html" title="A Client-Side Solve: Browser Sanitization APIs" /><published>2021-04-21T15:46:49-06:00</published><updated>2021-04-21T15:46:49-06:00</updated><id>http://localhost:4000/client/appsec/apis/2021/04/21/browser-sanitization-apis</id><content type="html" xml:base="http://localhost:4000/client/appsec/apis/2021/04/21/browser-sanitization-apis.html">&lt;h3 id=&quot;why-browser-sanitization-apis-could-usher-in-a-new-era-of-client-side-security&quot;&gt;Why Browser Sanitization APIs could usher in a new era of client-side security?&lt;/h3&gt;
+
+&lt;iframe src=&quot;https://www.youtube-nocookie.com/embed/bUtaE6D2jf0&quot; frameborder=&quot;0&quot; width=&quot;640&quot; height=&quot;480&quot; allowfullscreen=&quot;&quot; style=&quot;text-align: center;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;In April 2021, Google and Firefox both announced that a &lt;a href=&quot;https://portswigger.net/daily-swig/google-and-mozilla-unveil-plans-to-bake-html-sanitization-into-their-browsers&quot;&gt;sanitization API&lt;/a&gt; would be integrated within their browsers. Ken Johnson (cktricky) and Seth Law (sethlaw) discussed these new developments on the Absolute AppSec podcast with a good deal more sanguinity than regular podcast listeners may be accustomed to.&lt;/p&gt;
+
+&lt;p&gt;According to the two hosts, the browser update could go along way toward addressing client-side vulnerabilities, especially certain cross-site scripting weaknesses. Sanitized languages can drastically reduce attack surfaces, helping prevent potential attacks. And Mozilla and Google’s partnership with Cure53 represents a natural alliance in developing a browser-side response to many Cross-Site Scripting attacks. Developers have already used Cure53’s &lt;a href=&quot;https://github.com/cure53/DOMPurify&quot;&gt;DOMPurify&lt;/a&gt; libraries to positive affect in reducing attack surfaces.&lt;/p&gt;
+
+&lt;p&gt;In Seth Law’s view, the sanitization API is analogous to earlier library-adoption methods to reduce the threat of SQL Injection attacks.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;SQL Injection was a problem for years until the underlying way we passed data to databases changed….The number of exploits we saw dropped drastically because of the way we changed the underlying technology and the way developers interacted with it.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A Browser Sanitization makes sense as a technology solution that could standardize how developers address html content that accepts client-side data. Seeing how the Browser Sanitization API works going forward could reduce the onus on developers in solving the problem of XSS attacks by researching and implementing the correct bespoke library for their own organization’s purposes.&lt;/p&gt;
+
+&lt;p&gt;To see more of Ken and Seth’s discussion of Browser Sanitization API’s, among other topics, checkout the youtube broadcast &lt;a href=&quot;https://www.youtube.com/watch?v=zsN2FNoUZIc&amp;amp;amp&quot;&gt;here&lt;/a&gt;. Subscribe to our youtube &lt;a href=&quot;https://www.youtube.com/channel/UCo9CDrIB0rJwG4GGz8CZEaQ&quot;&gt;channel&lt;/a&gt; to be made aware of new content. Absolute AppSec covers Application Security content in weekly YouTube livestreams buttressed with lively discussion in our &lt;a href=&quot;absoluteappsec.slack.com&quot;&gt;Slack Channel&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;To read a more academic discussion of Cure53’s work, see Mario Heiderich, Christopher Späth, and Jörg Schwenk’s research paper &lt;a href=&quot;https://link.springer.com/chapter/10.1007/978-3-319-66399-9_7&quot;&gt;“DOMPurify: Client-Side Protection Against XSS and Markup Injection,” in &lt;em&gt;European Symposium on Research in Computer Security&lt;/em&gt; 2017: 116-134&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Researchers can also look at Cure53’s all-encompassing &lt;a href=&quot;https://github.com/cure53/browser-sec-whitepaper/blob/master/browser-security-whitepaper.pdf&quot;&gt;Browser Security White Paper&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;/&quot;&gt;back&lt;/a&gt;&lt;/p&gt;</content><author><name>@absoluteappsec</name></author><category term="client" /><category term="appsec" /><category term="APIs" /><summary type="html">Why Browser Sanitization APIs could usher in a new era of client-side security?</summary></entry></feed>
