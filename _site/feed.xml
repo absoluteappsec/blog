@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-02-09T10:02:02-07:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Absolute AppSec - The Blog</title><subtitle>A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO</subtitle><entry><title type="html">Three takeaways from an episode with James Kettle</title><link href="http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html" rel="alternate" type="text/html" title="Three takeaways from an episode with James Kettle" /><published>2021-09-21T15:46:49-06:00</published><updated>2021-09-21T15:46:49-06:00</updated><id>http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle</id><content type="html" xml:base="http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html">&lt;h2 id=&quot;how-portswigger-researchs-james-kettle-approaches-application-security-research&quot;&gt;How Portswigger Research’s James Kettle approaches Application Security Research&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/blog/" rel="alternate" type="text/html" /><updated>2022-02-09T11:05:31-07:00</updated><id>http://localhost:4000/blog/feed.xml</id><title type="html">Absolute AppSec - The Blog</title><subtitle>A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO</subtitle><entry><title type="html">AppSec For New Professionals</title><link href="http://localhost:4000/blog/new/" rel="alternate" type="text/html" title="AppSec For New Professionals" /><published>2022-02-09T00:00:00-07:00</published><updated>2022-02-09T00:00:00-07:00</updated><id>http://localhost:4000/blog/appsec-for-new</id><content type="html" xml:base="http://localhost:4000/blog/new/">&lt;h3 id=&quot;getting-into-application-security-can-be-daunting-but-there-is-a-way&quot;&gt;Getting into Application Security can be daunting, but there is a way&lt;/h3&gt;
+
+&lt;p&gt;As podcasters, we are often asked what it takes to get into Application Security. While there is no “one true way” to get into Application Security, we have talked with individuals on the podcast with a range of backgrounds, from coding or engineering to circus performers (seriously). All it takes is a desire to learn, time to explore different application security topics, and to get involved.&lt;/p&gt;
+
+&lt;p&gt;So where to start? It is often said that the best application security engineers were software engineers in the past. While the ability to code enterprise applications is definitely a plus, it is not a hard and fast requirement. That being said, the ability to read code and understand application interactions is a definite advantage to finding and fixing application flaws. When facing a language, or framework without prior experience, one of the first things to do is read the documentation, follow a tutorial, and write a small hello-world application using that specific technology.&lt;/p&gt;
+
+&lt;p&gt;In other words, if you don’t know how to build or code applications, there is no wrong place to start. Jump into the deep end and build a web application using Node Express, Ruby on Rails, or Django. Or go the mobile route and build something using React Native, Android Studio, or Apple’s XCode. Each tutorial and coding step will teach you how developers think. If you are just starting with code, stick with the basics of Python or JavaScript to get going. There are a multitude of online tutorials for both.&lt;/p&gt;
+
+&lt;p&gt;If you have prior coding experience, but are inexperienced with security vulnerabilities and flaws, start with the Open Web Application Security Project’s (OWASP) Top 10 Web Application Security Risks (https://owasp.org/www-project-top-ten/). OWASP is a nonprofit group of security and software engineers that works to improve software security through awareness, tools, and a number of different projects. Learn to identify the above risks and exploit them using one of the many intentionally vulnerable application (e.g. OWASP Juice Shop, WebGoat, DVWS) and an intercepting proxy (OWASP ZAP, Burp Suite). This process will get you started thinking offensively about how an application is built and how security weaknesses are identified.&lt;/p&gt;
+
+&lt;p&gt;Once familiar with common risks, vulnerabilities and exploits, your personal path is dependent on your current role and responsibilities. If you are employed as a developer, look for vulnerabilities within your own code and application, as long as you have permission to do so. In addition, most organizations are implementing or have implemented what is known as security champions programs. Take advantage of these programs to expand your knowledge and interact with others in your company responsible for and interested in security.&lt;/p&gt;
+
+&lt;p&gt;If you are a student or currently not involved in any development projects, bug bounty programs make it easy to explore and search for security vulnerabilities in real-world applications. The two most popular programs are currently Hacker One (hackerone.com) and Bug Crowd (bugcrowd.com). Stick to the scoped targets, but don’t be afraid to try looking for common issues, even if the target has been running a bug bounty program for a long time. If you find a security flaw, report it back through the program, document a step-by-step process to exploit the issue, and provide recommendations for mitigating the problem. If you don’t have an idea how the mitigation should happen, research the issue and expand your own knowledge on the issue before reporting the vulnerability.&lt;/p&gt;
+
+&lt;p&gt;Once you have decided to go down the application security path, get involved with your local community either through conferences or local meetups. We can’t stress enough how much making in-person connections has affected our application security careers. OWASP and DEF CON Group chapters exist all over the world and meet monthly in most locations. While some topics are advanced, chapter leaders are happy to include topics that are applicable to all and help others get into the industry.&lt;/p&gt;
+
+&lt;p&gt;Conferences are great places to meet people and hear the latest research on advanced topics. Don’t discount the opportunity to hone your security skills through the capture-the-flag (CTF) events that run during most security conferences. At a minimum, most CTFs will include application security targets (e.g. web or mobile applications, API endpoints), while larger conferences like DEF CON (defcon.org) will have specific villages and contests that are application security specific. We have learned more in the past participating in CTFs than attending talks on specific vulnerabilities.&lt;/p&gt;
+
+&lt;p&gt;As you become familiar with different areas of application security, do not be afraid to explore different security activities associated with building applications. For example, you may have a knack for secure code review over penetration testing dynamic sites. Or threat modeling may speak to you more than writing authentication routines. While each activity isn’t always required or requested by different organizations, there are those that value the abilities. In other words, find your niche and what you enjoy.&lt;/p&gt;
+
+&lt;p&gt;Once you have a target of the job you want, use your network to identify opportunities. Speak up to your colleagues and boss about security in your organization. Volunteer to train others on what you have learned. Explore novel aspects of your chosen topic and blog, present, or otherwise codify your research. The way you explain a topic may help others trying to understand that same topic and will only solidify your own understanding. Put out the resources you wish were available when you started.&lt;/p&gt;
+
+&lt;p&gt;Whatever you do, enjoy the ride.&lt;/p&gt;</content><author><name>@sethlaw</name></author><category term="appsec" /><category term="career" /><category term="growth" /><category term="newb" /><category term="appsec" /><category term="career" /><category term="growth" /><category term="newb" /><summary type="html">Getting into Application Security can be daunting, but there is a way</summary></entry><entry><title type="html">Absolute(ly) Awesome AppSec</title><link href="http://localhost:4000/blog/awesome/" rel="alternate" type="text/html" title="Absolute(ly) Awesome AppSec" /><published>2022-02-01T00:00:00-07:00</published><updated>2022-02-01T00:00:00-07:00</updated><id>http://localhost:4000/blog/awesome-appsec</id><content type="html" xml:base="http://localhost:4000/blog/awesome/">&lt;h2 id=&quot;resources-that-we-have-found-useful-during-our-application-security-careers&quot;&gt;Resources that we have found useful during our Application Security Careers&lt;/h2&gt;
+
+&lt;p&gt;The following resources could also be described as Absolute AppSec’s Awesome Application Security list. Either way, these are all resources that have been helpful to us over the years.&lt;/p&gt;
+
+&lt;h3 id=&quot;newsletters&quot;&gt;Newsletters&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;tl;dr sec - Clint Gibler’s (https://twitter.com/clintgibler) weekly newsletter covering a range of topics, from application security to red team, cloud security, upcoming conferences, and miscellaneous topics that are security related. https://tldrsec.com&lt;/li&gt;
+  &lt;li&gt;Unsupervised Learning - Daniel Miesser spends 20+ hours each week consuming content and summarizes articles on security, technology, and other topics. https://danielmiessler.com/newsletter/&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;threat-modeling&quot;&gt;Threat Modeling&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://segment.com/blog/redefining-threat-modeling/ - Jeevan Singh from Segment blogs his experience of building a self-serve Threat Modeling program for software engineers.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;training&quot;&gt;Training&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Portswigger’s offerings
+    &lt;ul&gt;
+      &lt;li&gt;Web Academy + Learning Path + Burpsuite https://portswigger.net/web-security&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;table&gt;
+      &lt;tbody&gt;
+        &lt;tr&gt;
+          &lt;td&gt;TryHackMe – TryHackMe&lt;/td&gt;
+          &lt;td&gt;Cyber Security Training https://tryhackme.com&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/tbody&gt;
+    &lt;/table&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bug-bounties&quot;&gt;Bug Bounties&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;JHaddix’s Bug Hunter’s Methodology v4.01
+    &lt;ul&gt;
+      &lt;li&gt;https://docs.google.com/presentation/d/1MWWXXRvvesWL8V-GiwGssvg4iDM58_RMeI_SZ65VXwQ/edit#slide=id.p&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;tools&quot;&gt;Tools&lt;/h3&gt;
+
+&lt;p&gt;Familiarize yourself with tools like project discovery’s nuclei vulnerability scanner: https://github.com/projectdiscovery/nuclei&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;OWASP’s Amass tool: https://github.com/OWASP/Amass
+    &lt;ul&gt;
+      &lt;li&gt;Ken’s demo is here: https://youtu.be/dnqCt4uUdzc&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Portswigger Burp Suite: https://portswigger.net/burp
+    &lt;ul&gt;
+      &lt;li&gt;Burp Suite demo: https://youtu.be/ZnaRT3HoMn4&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Radamsa: https://gitlab.com/akihe/radamsa
+    &lt;ul&gt;
+      &lt;li&gt;Absolute AppSec Demo: https://youtu.be/oV0NoYLY0CY&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;news&quot;&gt;News&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://lobste.rs/t/security&lt;/li&gt;
+  &lt;li&gt;https://www.reddit.com/r/netsec&lt;/li&gt;
+  &lt;li&gt;Git-N-formed discord https://discord.gg/c7HyYGHrkC&lt;/li&gt;
+  &lt;li&gt;https://portswigger.net/daily-swig&lt;/li&gt;
+  &lt;li&gt;https://www.darkreading.com&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;conferences-and-irl&quot;&gt;Conferences and IRL&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Security BSides - http://www.securitybsides.com/w/page/12194138/BSides
+    &lt;ul&gt;
+      &lt;li&gt;Low or no cost conferences offered at regional bsides are a good way to meet infosec people, practice skills in CTF events&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;OWASP - Look for your local OWASP group here: https://owasp.org/chapters/&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>@absoluteappsec</name></author><category term="appsec" /><category term="tools" /><category term="resources" /><category term="news" /><category term="appsec" /><category term="tools" /><category term="resources" /><category term="news" /><summary type="html">Resources that we have found useful during our Application Security Careers</summary></entry><entry><title type="html">Three takeaways from an episode with James Kettle</title><link href="http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html" rel="alternate" type="text/html" title="Three takeaways from an episode with James Kettle" /><published>2021-09-21T15:46:49-06:00</published><updated>2021-09-21T15:46:49-06:00</updated><id>http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle</id><content type="html" xml:base="http://localhost:4000/blog/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html">&lt;h2 id=&quot;how-portswigger-researchs-james-kettle-approaches-application-security-research&quot;&gt;How Portswigger Research’s James Kettle approaches Application Security Research&lt;/h2&gt;
 
 &lt;video width=&quot;80%&quot; preload=&quot;auto&quot; muted=&quot;&quot; controls=&quot;&quot;&gt;
     &lt;source src=&quot;/blog/assets/videos/Kettle-promo2.mp4&quot; type=&quot;video/mp4&quot; /&gt;
