@@ -8,6 +8,6 @@ layout: default
 {% for post in site.posts limit:10 %}
 
 ## [{{ post.title }}]({{ post.url }})
-  {{ post.author }} | {{ post.date | date: '%B %d, %Y' }} | {% for c in post.categories %} {{ c }} {% endfor %}
+  {{ post.author }} | {{ post.date | date: '%B %d, %Y' }} | <em>{{ post.categories | join: "</em> - <em>" }}</em>
   <hr>
 {% endfor %}

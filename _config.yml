@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO
 domain: absoluteappsec.com
 repository: absoluteappsec/blog
-#baseurl: /blog # the subpath of your site, e.g. /blog
+baseurl: /blog # the subpath of your site, e.g. /blog
 url: https://absoluteappsec.com
 twitter_username: absoluteappsec
 # github_username:  absoluteappsec

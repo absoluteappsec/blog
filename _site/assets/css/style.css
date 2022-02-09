@@ -109,8 +109,8 @@ a { color: #63c0f5; text-shadow: 0 0 5px rgba(104, 182, 255, 0.5); }
 
 body { background: #3A3A3C; }
 
-header h1 { color: #8CC53F; font-weight: normal; font-family: Quicksand; }
+header h1 { color: #8CC53F; font-family: Quicksand; }
 
 h2, h3, h4, h5, h6 { font-family: Quicksand; text-shadow: none; }
 
-header { border-bottom: 1px dashed #8CC53F; }
+header { border-bottom: 1px dashed #8CC53F; background-color: #fff; background-image: url("/assets/images/berlin_hbf_header.png"); background-size: cover; }

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=62e307da82ac6a37412743cbd7891f8b7cb008e2">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup theme-color -->
+<!-- start theme color meta headers -->
+<meta name="theme-color" content="#151515">
+<meta name="msapplication-navbutton-color" content="#151515">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<!-- end theme color meta headers -->
+
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Three takeaways from an episode with James Kettle | Absolute AppSec - The Blog</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Three takeaways from an episode with James Kettle" />
+<meta name="author" content="@absoluteappsec" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="How Portswigger Research’s James Kettle approaches Application Security Research" />
+<meta property="og:description" content="How Portswigger Research’s James Kettle approaches Application Security Research" />
+<link rel="canonical" href="http://localhost:4000/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html" />
+<meta property="og:url" content="http://localhost:4000/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html" />
+<meta property="og:site_name" content="Absolute AppSec - The Blog" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-21T15:46:49-06:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Three takeaways from an episode with James Kettle" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html","author":{"@type":"Person","name":"@absoluteappsec"},"headline":"Three takeaways from an episode with James Kettle","dateModified":"2021-09-21T15:46:49-06:00","datePublished":"2021-09-21T15:46:49-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/appsec/research/http/desync/portswigger/2021/09/21/james-kettle.html"},"description":"How Portswigger Research’s James Kettle approaches Application Security Research","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <a id="a-title" href="/">
+          <h1>Absolute AppSec - The Blog</h1>
+        </a>
+        <h2>A BLOG FOR THOSE WHO LIKE ABSOLUTE APPSEC AND BLOGS, TOO</h2>
+
+        <section id="downloads">
+          
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <small>21 September 2021</small>
+<h1>Three takeaways from an episode with James Kettle</h1>
+
+<p class="view">by @absoluteappsec</p>
+
+<h2 id="how-portswigger-researchs-james-kettle-approaches-application-security-research">How Portswigger Research’s James Kettle approaches Application Security Research</h2>
+
+<video width="80%" preload="auto" muted="" controls="">
+    <source src="/assets/videos/Kettle-promo2.mp4" type="video/mp4" />
+</video>
+
+<p>Absolute AppSec’s <a href="https://www.youtube.com/watch?v=b5IVhnboDIY">147th episode</a> featured a can’t-miss discussion with James Kettle (<a href="https://twitter.com/albinowax">@albinowax</a> on Twitter), a world-class exploit researcher from <a href="https://portswigger.com">Portswigger</a>. As the episodes overly dramatic promo highlights, Ken and Seth discovered some interesting details regarding Kettle’s path into security research. But the fun didn’t end there – Kettle provided some valuable insights that could help appsec professionals and bug bounty researchers in furthering their own goals going forward.</p>
+
+<h3 id="episode-takeaways">Episode takeaways</h3>
+
+<h4 id="1-good-research-serves-as-a-clue-that-there-is-more-good-research-from-that-same-source">1. Good research serves as a clue that there is more good research from that same source</h4>
+
+<p>In the course of the episode, Kettle credited researchers such as (a) orangetsai <a href="https://blog.orange.tw">(research blog here)</a>, (b) regilero <a href="https://regilero.github.io">(research page here)</a>
+, and (c) Amit Klein <a href="http://www.securitygalore.com/site3/">(research here)</a> as influential touchpoints for Kettle. Kettle’s personal generosity with acknowledgment and respect is also a nice reminder that the security community can be downright collegial: there’s no reason not to be a mensch.</p>
+
+<h4 id="2-dig-into-something-you-dont-understand">2. Dig into something you don’t understand</h4>
+
+<p>This works as a way to address many researchers’ desire to play with something new, not just re-creating XSS all day. Kettle’s first introduction to post-smuggling was listening to regilero’s presentation at defcon 24 “Hiding Wookies in HTTP – HTTP smuggling is a thing we should know better and care about,”; <a href="https://infocondb.org/con/def-con/def-con-24/hiding-wookiees-in-http-http-smuggling-is-a-thing-we-should-know-better-and-care-about">(infocondb.org)</a> and Kettle’s first impulse was to tell himself he probably didn’t need to understand HTTP smuggling on any deeper level. However, if you fast forward three years, one can see how much work Kettle did to illuminate HTTP smuggling attacks. For example, read his deep dive and watch his discussion of the technique from defcon 27 – <a href="https://portswigger.net/research/http-desync-attacks-request-smuggling-reborn">“HTTP Desync Attacks: Request Smuggling Reborn”</a></p>
+
+<p>Relatedly, Kettle recommends digging into not just exploit vectors, but single applications as well. This is especially true for people looking to increase income in bug bounty research. Truly understanding an application provides greater opportunities for finding the types of vulnerabilities that pay out handsomely.</p>
+
+<h4 id="3-document-document">3. Document, Document</h4>
+
+<p>There are two main points to highlight related to good note-keeping and documentation. First is that a good finding is the key to bug bounty payouts. Show the application owners as articulately and precisely as you can how to re-create your exploit, and your chance of big payouts directly increases. The more long-term benefits for documenting ideas are highlighted by the research trajectory of <em>ALL</em> Kettle’s ideas. As Kettle relates, he keeps a list of things that might work, will ruminate on how he can create quick tests to check those ideas regardless of whether he considers the idea “smart”; or “dumb”; when it first germinates.</p>
+
+<p>Generally speaking, while these were some takeaways we wanted to highlight, the interview provides a lot of insights into the life of a security professional with a well-deserved stellar reputation. Definitely watch <a href="https://youtube.com/watch?v=b5IVhnboDIY">the whole episode</a>, already one of Absolute AppSec’s most popular, and let us know (by <a href="mailto:info@absoluteappsec.com">email</a> or in our <a href="https://join.slack.com/t/absoluteappsec/shared_invite/zt-5jay66o6-tOCIelav2VpJjcxRhTBEjA">slack channel</a>) if you have any other particular guests you’d like to see on upcoming episodes of the show.</p>
+
+
+
+  <small>tags: <em>appsec</em> - <em>research</em> - <em>http</em> - <em>desync</em> - <em>portswigger</em></small>
+
+
+      </section>
+    </div>
+  </body>
+</html>
