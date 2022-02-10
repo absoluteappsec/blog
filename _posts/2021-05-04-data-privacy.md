@@ -3,7 +3,7 @@ layout: post
 title:  "Two tensions governing privacy and data"
 author: "@absoluteappsec"
 date:   2021-05-04 14:46:49 -0700
-permalink: /Data-Privacy-Abine.com/
+permalink: Data-Privacy-Abine.com/
 categories: data privacy appsec consumer
 tags: data privacy appsec consumer
 ---

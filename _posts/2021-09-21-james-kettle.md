@@ -3,7 +3,7 @@ layout: post
 title:  "Three takeaways from an episode with James Kettle"
 author: "@absoluteappsec"
 date:   2021-09-21 14:46:49 -0700
-permalink: /James-Kettle/
+permalink: /James-Kettle-Portswigger/
 categories: appsec research http desync portswigger
 tags: appsec research http desync portswigger
 ---

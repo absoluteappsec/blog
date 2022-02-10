@@ -3,7 +3,7 @@ layout: post
 title:  "Dealing with attacks in the Ransomware-as-a-Service era"
 author: "@absoluteappsec"
 date:   2021-07-15 14:46:49 -0700
-permalink: /Ransomware/
+permalink: Ransomware/
 categories: appsec ransomware blueteam defense
 tags: appsec ransomware blueteam defense
 ---
