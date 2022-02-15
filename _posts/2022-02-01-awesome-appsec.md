@@ -34,14 +34,24 @@ The following resources could also be described as Absolute AppSec’s Awesome A
 
 Familiarize yourself with tools like [project discovery’s nuclei vulnerability scanner](https://github.com/projectdiscovery/nuclei)
 
+##### Dynamic Scanning Tools
 * OWASP’s Amass tool: [Amass Github Link](https://github.com/OWASP/Amass)
   * [Absolute AppSec Amass Demo](https://youtu.be/dnqCt4uUdzc)
 
+##### Proxies
 * Portswigger Burp Suite: [Burp Suite Portswigger Link](https://portswigger.net/burp)
   * [Absolute AppSec Burp Suite Demo](https://youtu.be/ZnaRT3HoMn4)
 
-* Radamsa: [radamsa](https://gitlab.com/akihe/radamsa)
+##### Fuzzing Tools
+* Radamsa: [radamsa Github](https://gitlab.com/akihe/radamsa)
   * [Absolute AppSec Demo](https://youtu.be/oV0NoYLY0CY)
+
+##### Static Analysis
+* Brakeman: [brakemanscanner.org](https://brakemanscanner.org)
+  * Ruby on Rails
+* Puma Scan: [pumascan.com](https://pumascan.com)
+  * .NET/C#
+* Semgrep: [semgrep.dev](https://semgrep.dev)
 
 ### News
 
