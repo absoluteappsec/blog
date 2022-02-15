@@ -3,7 +3,7 @@ layout: post
 title:  "A Client-Side Solve: Browser Sanitization APIs"
 author: "@absoluteappsec"
 date:   2021-07-01 14:46:49 -0700
-permalink: Browser-Sanitization-APIs/
+permalink: /Browser-Sanitization-APIs/
 categories: browser client appsec apis
 tags: browser client appsec apis
 ---

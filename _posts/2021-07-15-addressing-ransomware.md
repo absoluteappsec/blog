@@ -3,7 +3,7 @@ layout: post
 title:  "Dealing with attacks in the Ransomware-as-a-Service era"
 author: "@absoluteappsec"
 date:   2021-07-15 14:46:49 -0700
-permalink: Ransomware/
+permalink: /Ransomware/
 categories: appsec ransomware blueteam defense
 tags: appsec ransomware blueteam defense
 ---
@@ -23,8 +23,7 @@ The need to introduce redundancy in your system operations and to design the sec
 
 >Redundancy is one of the main avenues organizations use for preventing ransomware attacks. If [an attacker] does get in (just assume that inevitably someone is going to click on a link), the attacker is going to encrypt the data on a file share. You need to (1) identify that attack, and (2) restore the system to a known good point before the encryption happened.
 >
-> - SETH LAW (@sethlaw)
-</blockquote>
+> - SETH LAW ([@sethlaw](https://www.twitter.com/sethlaw))
 
 According to Ken, ransomware, when addressed a decade ago, faced a security point-of-view that aimed to prevent attacks with a tough exterior defense. Once that exterior defense were breached, there were no planned-for interior defenses, and attackers could feast on the gooey insides of security infrastructures. Pre-mortem planning reflects an evolution in security planning for ransomware. Security planners now assume attackers can find a way in, so organizations need to strategize their responses when the inevitable happens.
 
