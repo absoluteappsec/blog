@@ -20,7 +20,7 @@ In the last couple years, Ken and Seth's Secure-Code Review course has generated
 ![Methodology]({{ site.baseurl }}{{ '/assets/images/absolute-appsec-scr-method.png' }})
 ### _The Absolute AppSec Method for Secure-Code Review_
 
-Organizing your approach to Secure-Code review involves recognizing typical application behaviors in general as well as the ability to research (read: targeted googling) language/application documentation as you dial down into specifics. Information gathering is a vitally important part of Secure-Code Reviews because it informs how we divvy up the time allotted for a review and determines what we look at first. The idea is to develop a framework and direction to your review so you avoid either freezing up because you don't know where to start or, more seriously, following a wild hare down the rabbit hole.
+Organizing your approach to Secure-Code review involves recognizing typical application behaviors in general as well as the ability to research (read: targeted googling) language/application documentation as you dial down into specifics. To that end, information gathering is a vitally important part of Secure-Code Reviews because it informs how we divvy up the time allotted for a review and determines what we look at first. The idea is to develop a framework and direction to your review so you avoid either freezing up because you don't know where to start or, more seriously, following a wild hare down the rabbit hole.
 
 ## Avoiding Rabbit Holes
 
@@ -31,6 +31,8 @@ No better example exists of implementing this methodology than the accelerated/c
 {:refdef: style="text-align: center;"}
 <iframe src='https://www.youtube-nocookie.com/embed/f6UOBCJ9pjw' frameborder='0' width='640' height='480' allowfullscreen></iframe>
 {: refdef}
+
+Ken's walkthrough illustrates how to organize a secure-code review by: information gathering for relatively unknown Django application; digging through source files to tease out promising testing avenues; and overall prioritizing routes for review by sketching out source-to-sink data flows: that is from user input to application handling and storage. 
 
 In the course, we provide [template materials](https://github.com/zactly/handouts) that can organize students' ideas about what expected application behaviors and routes could be. But the template is intentionally the most rudimentary form of a skeleton. It gets fleshed out by the checklists you create during information gathering, which is further developed by the circle-k framework (because no matter where your code review goes, you end up back here).
 
